@@ -1,0 +1,21 @@
+
+.main {
+  display: grid;
+  place-items: center;
+  margin-top: 30px;
+}
+
+.sub {
+  display: flex;
+}
+
+.one {
+  margin: 5px;
+}
+
+.head {
+  font-size: 40px;
+  font-family: monospace;
+  text-decoration: underline;
+  margin-bottom: 20px;
+}

@@ -1,0 +1,110 @@
+
+.home {
+   display: flex;
+   justify-content: center;
+   margin-left: auto;
+   margin-right: auto;
+   max-width: 1500px;
+}
+
+.home_row {
+  display: flex;
+  z-index:  1;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.home_image {
+  width: 100%;
+  z-index: -1;
+  margin-bottom:-150px;
+  color: white;
+  background-color:#131921;
+  font-family: sans-serif;
+}
+.lul {
+ background-color: #131921;
+ 
+}
+
+.info {
+  font-family: sans-serif;
+  color: white;
+  font-size: 25px;
+  margin-left: 10px;
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+
+.aim {
+  margin-left: 10px;
+  font-size: 40px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: rgba(220, 235, 248, 0.347);
+  margin-bottom: 10px;
+  text-shadow: 0 2px white;
+}
+
+.aim2 {
+  margin-left: 10px;
+  margin-bottom: 10px;
+  font-size: 25px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: lightblue;
+}
+
+.buttons > button {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-top: 0;
+  width: 200px;
+  margin: 20px;
+  font-size: 30px;
+  color: white;
+  background-color: cyan;
+  border: 1px solid rgb(89, 89, 231);
+}
+
+.buttons{
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+.buttons:hover,
+.buttons:focus{
+  box-shadow: 2px 2px violet;
+  animation: pulse 1s;
+  box-shadow: 0 0 0 2em transparent;
+}
+
+
+.helpline {
+  background-color: black;
+  color: white;
+  display: flex;
+  margin-top: 100 px;
+  margin-bottom: 100 px;
+  
+}
+
+.left {
+  display: flex;
+  width: 50%;
+  height: 100px;
+  flex-direction: column;
+  line-height: 22px;
+  margin-left: 40px;
+  margin-top: 5px;
+}
+
+.right {
+  height: 100px;
+  flex-direction: column;
+  display: flex;
+  width: 50%;
+  line-height: 22px;
+  margin-left: 40px;
+  margin-top: 5px;
+}
